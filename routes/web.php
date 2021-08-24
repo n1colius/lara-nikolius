@@ -1,0 +1,53 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/login', [App\Http\Controllers\AuthController::class, 'index'])->name('login');
+Route::post('/login', [App\Http\Controllers\AuthController::class, 'login_proc'])->name('login_proc');
+/*Route::get('/register', [App\Http\Controllers\AuthController::class, 'register'])->name('register');
+Route::post('/register', [App\Http\Controllers\AuthController::class, 'register_proc'])->name('register_proc');*/
+
+Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
+Route::get('/blog/{id}', [App\Http\Controllers\BlogController::class, 'detail'])->name('blog_detail');
+
+Route::get('/funproj', [App\Http\Controllers\FunProjController::class, 'index'])->name('funproj');
+Route::get('/dotahero', [App\Http\Controllers\DotaHeroController::class, 'index'])->name('dotahero');
+Route::get('/dota_analysis', [App\Http\Controllers\DotaAnalysisController::class, 'index'])->name('dota_analysis');
+Route::get('/dota_analysis_result', [App\Http\Controllers\DotaAnalysisController::class, 'result'])->name('dota_analysis_result');
+
+Route::group(['middleware' => 'auth'], function () {
+ 
+    Route::get('/logout', [App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
+
+    Route::get('/adm_manage_data', [App\Http\Controllers\AdmMngDataController::class, 'index'])->name('adm_manage_data');
+
+    Route::get('/adm_dota2_heroes', [App\Http\Controllers\AdmDota2HeroesController::class, 'index'])->name('adm_dota2_heroes');
+    Route::get('/adm_dota2_heroes_form/{opsi}/{id?}', [App\Http\Controllers\AdmDota2HeroesController::class, 'form'])->name('adm_dota2_heroes_form');
+    Route::post('/adm_dota2_heroes_form_proc', [App\Http\Controllers\AdmDota2HeroesController::class, 'form_proc'])->name('adm_dota2_heroes_form_proc');
+    Route::post('/adm_dota2_heroes_form_notes_proc', [App\Http\Controllers\AdmDota2HeroesController::class, 'form_notes_proc'])->name('adm_dota2_heroes_form_notes_proc');
+    Route::post('/adm_dota2_heroes_form_notes_delete/', [App\Http\Controllers\AdmDota2HeroesController::class, 'form_notes_delete'])->name('adm_dota2_heroes_form_notes_delete');
+    Route::get('/adm_dota2_heroes_delete/{id}', [App\Http\Controllers\AdmDota2HeroesController::class, 'delete'])->name('adm_dota2_heroes_delete');
+
+    Route::get('/adm_blog', [App\Http\Controllers\AdmBlogController::class, 'index'])->name('adm_blog');
+    Route::get('/adm_blog_form/{opsi}/{id?}', [App\Http\Controllers\AdmBlogController::class, 'form'])->name('adm_blog_form');
+    Route::post('/adm_blog_form_proc', [App\Http\Controllers\AdmBlogController::class, 'form_proc'])->name('adm_blog_form_proc');
+    Route::get('/adm_blog_delete/{id}', [App\Http\Controllers\AdmBlogController::class, 'delete'])->name('adm_blog_delete');
+
+    Route::get('/adm_dotacrawl_matches', [App\Http\Controllers\AdmDotacrawlController::class, 'matches'])->name('adm_dotacrawl_matches');
+    Route::get('/adm_dotacrawl_matches_stat/{leagueid}', [App\Http\Controllers\AdmDotacrawlController::class, 'matches_stat'])->name('adm_dotacrawl_matches_stat');
+    Route::get('/adm_dotacrawl_matches_genstat/{leagueid}', [App\Http\Controllers\AdmDotacrawlController::class, 'matches_genstat'])->name('adm_dotacrawl_matches_genstat');
+});

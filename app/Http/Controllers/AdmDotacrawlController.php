@@ -21,12 +21,12 @@ class AdmDotacrawlController extends Controller
 	public function matches(Request $request)
 	{
 		//read file json
-		$contents = file_get_contents(public_path().'/files/lootbet.json');
+		$contents = file_get_contents(public_path().'/files/data.json');
 		$contents_json = json_decode($contents);
 		//dd($contents_json);
 
 		//Parameter
-		$leagueid = 13409;
+		$leagueid = 13379;
 		$patchid = 3;
 		$total = 0;
 
@@ -94,7 +94,7 @@ class AdmDotacrawlController extends Controller
 			}
 
 			$total++;
-			sleep(5); //biar ada jeda 5 detik
+			sleep(3); //biar ada jeda 3 detik
 		}
 		
 		return response()->json([

@@ -11048,6 +11048,10 @@ section.resume-section .resume-section-content {
   font-weight: bold;
 }
 
+.HeroRolesBadges {
+  margin: 5px 10px;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;

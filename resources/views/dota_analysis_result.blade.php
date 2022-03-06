@@ -8,7 +8,22 @@
         	<h2><a href="{{ route('dota_analysis') }}">Dota 2 Match Analysis</a></h2>
         	<br><br><br>
 
-        	<h4>Radiant Heroes</h4>
+        	<h4 style="margin-top:20px;">Radiant Heroes</h4>
+        	<p>Role Summary:
+        		@if(count($InfoHeroRolesRadiant)>0)
+        			<div class="container">
+        		    	<div class="row">
+	        			@foreach($InfoHeroRolesRadiant as $key=>$item)
+	        				<div class="col-12 col-md-2 HeroRolesBadges">
+	        					<button type="button" class="btn btn-primary btn-sm">
+	        						{{$item->Roles}} <span class="badge bg-light text-dark">{{$item->CountRoles}}</span>
+	        					</button>
+	        				</div>	
+	        			@endforeach
+	        			</div>
+	        		</div>
+        		@endif
+        	</p>
 
         	<div class="container-fluid">
         	    <div class="row">
@@ -173,6 +188,21 @@
 			</div>
         	
         	<h4 class="mt-5">Dire Heroes</h4>
+        	<p>Role Summary:
+        		@if(count($InfoHeroRolesDire)>0)
+        			<div class="container">
+        		    	<div class="row">
+	        			@foreach($InfoHeroRolesDire as $key=>$item)
+	        				<div class="col-12 col-md-2 HeroRolesBadges">
+	        					<button type="button" class="btn btn-primary btn-sm">
+	        						{{$item->Roles}} <span class="badge bg-light text-dark">{{$item->CountRoles}}</span>
+	        					</button>
+	        				</div>	
+	        			@endforeach
+	        			</div>
+	        		</div>
+        		@endif
+        	</p>
 
         	<div class="container-fluid">
         	    <div class="row">

@@ -55,6 +55,7 @@ class DotaAnalysisController extends Controller
 		        WHERE 1=1
 		            AND a.HeroIDWin = ?
 		            AND a.HeroIDLose = ?";
+
 		$QueryInfoHero = "SELECT
 								a.HeroName
 								, a.Picture
@@ -68,6 +69,28 @@ class DotaAnalysisController extends Controller
 							GROUP BY a.HeroID
 							LIMIT 1";
 
+		$QueryInfoHeroRolesRadiant = "SELECT
+											b.`Roles`
+											, CONCAT(COUNT(b.`Roles`),'x') AS CountRoles
+										FROM
+											`dota_heroes` a
+											INNER JOIN dota_heroes_roles b ON a.`HeroID` = b.`HeroID`
+										WHERE 1=1
+											AND a.`HeroID` IN ({$StrRadiantHero})
+										GROUP BY b.`Roles`
+										ORDER BY CountRoles DESC, b.`Roles` ASC";
+		$InfoHeroRolesRadiant = DB::select($QueryInfoHeroRolesRadiant);
+		$QueryInfoHeroRolesDire = "SELECT
+											b.`Roles`
+											, CONCAT(COUNT(b.`Roles`),'x') AS CountRoles
+										FROM
+											`dota_heroes` a
+											INNER JOIN dota_heroes_roles b ON a.`HeroID` = b.`HeroID`
+										WHERE 1=1
+											AND a.`HeroID` IN ({$StrDireHero})
+										GROUP BY b.`Roles`
+										ORDER BY CountRoles DESC, b.`Roles` ASC";
+		$InfoHeroRolesDire = DB::select($QueryInfoHeroRolesDire);
 
 		//INFO HERO ========================= (Begin)
 		$InfoHeroRadiant1 = DB::select($QueryInfoHero, [ $ArrRadiantHero[0] ]);
@@ -680,7 +703,9 @@ class DotaAnalysisController extends Controller
 			'ReturnDire2',
 			'ReturnDire3',
 			'ReturnDire4',
-			'ReturnDire5'
+			'ReturnDire5',
+			'InfoHeroRolesRadiant',
+			'InfoHeroRolesDire'
 		));
 	}
 

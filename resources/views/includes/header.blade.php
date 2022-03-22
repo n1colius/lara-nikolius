@@ -8,9 +8,9 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/#about') }}">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/#experience') }}">Experience</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/#education') }}">Education & Skills</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('blog') }}">Blog</a></li>
+            <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/#experience') }}">Experience</a></li>-->
+            <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/#education') }}">Education & Skills</a></li>-->
+            <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('blog') }}">Blog</a></li>-->
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ route('funproj') }}">Fun Projects</a></li>
 
             @if( Auth::check() )

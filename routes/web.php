@@ -29,6 +29,8 @@ Route::get('/dotahero', [App\Http\Controllers\DotaHeroController::class, 'index'
 Route::get('/dota_analysis', [App\Http\Controllers\DotaAnalysisController::class, 'index'])->name('dota_analysis');
 Route::get('/dota_analysis_result', [App\Http\Controllers\DotaAnalysisController::class, 'result'])->name('dota_analysis_result');
 
+Route::get('/cv', [App\Http\Controllers\CvController::class, 'index'])->name('cv');
+
 Route::group(['middleware' => 'auth'], function () {
  
     Route::get('/logout', [App\Http\Controllers\AuthController::class, 'logout'])->name('logout');

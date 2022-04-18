@@ -15,7 +15,7 @@
             <div class="container">
                 <div class="row align-items-start">
                     <div class="col">
-                        <a target="_blank" href="{{ route('cv') }}" class="btn btn-primary btn-mycv"><span>Lihat CV Saya </span></a>
+                        <a target="_blank" href="{{ route('cv') }}" class="btn btn-primary btn-mycv"><span>Curriculum Vitae</span></a>
                     </div>
                     <div class="col">
                         <div class="social-icons">

@@ -20,4 +20,13 @@ class CvController extends Controller
 			'data'
 		));
 	}
+
+	public function cv_eng() {
+		$data = array();
+		
+		return view('cv_eng', compact(
+			'data'
+		));
+	}
+
 }

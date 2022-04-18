@@ -28,8 +28,11 @@ Route::get('/funproj', [App\Http\Controllers\FunProjController::class, 'index'])
 Route::get('/dotahero', [App\Http\Controllers\DotaHeroController::class, 'index'])->name('dotahero');
 Route::get('/dota_analysis', [App\Http\Controllers\DotaAnalysisController::class, 'index'])->name('dota_analysis');
 Route::get('/dota_analysis_result', [App\Http\Controllers\DotaAnalysisController::class, 'result'])->name('dota_analysis_result');
+Route::get('/dota_winrate_chart', [App\Http\Controllers\DotaWinrateChartController::class, 'index'])->name('dota_winrate_chart');
+Route::get('/dota_winrate_chart_display', [App\Http\Controllers\DotaWinrateChartController::class, 'display'])->name('dota_winrate_chart_display');
 
 Route::get('/cv', [App\Http\Controllers\CvController::class, 'index'])->name('cv');
+Route::get('/cv_eng', [App\Http\Controllers\CvController::class, 'cv_eng'])->name('cv_eng');
 
 Route::group(['middleware' => 'auth'], function () {
  

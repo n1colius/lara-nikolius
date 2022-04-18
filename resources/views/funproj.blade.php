@@ -31,6 +31,16 @@
                         </div>
                     </div>
 
+                    <div class="col" style="display:none;"> <!-- hide dulu -->
+                        <div class="card" style="border:none;">
+                            <img src="{{url('/')}}/assets/img/dota3.png" class="card-img-top" style="width:150px;">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="{{ route('dota_winrate_chart') }}">Dota 2 Hero Winrate Chart</a></h5>
+                            </div>
+
+                        </div>
+                    </div>
+
         		</div>
         	</div>
 

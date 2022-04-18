@@ -54,15 +54,15 @@
 		    </header>
 		    <div class="resume-body p-5">
 			    <section class="resume-section summary-section mb-5">
-				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Deskripsi Singkat</h2>
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">About Me</h2>
 				    <div class="resume-section-content">
-					    <p class="mb-0">Web Developer dengan pengalaman lebih dari <strong>10 tahun</strong> dengan pendidikan Sarjana Komputer dari Universitas Kristen Duta Wacana. Fokus dalam pengembangan <strong>Aplikasi Sistem Informasi</strong> berbasis <strong>Web</strong> yang bisa menghasilkan laporan yang berguna untuk pertimbangan dalam pengambilan keputusan dalam suatu bisnis</p>
+					    <p class="mb-0">Experienced System Analyst and Web Developer with a demonstrated history of working in the computer software industry for more than <strong>10 years</strong> with a Bachelor's degree focused in Computer Science from Universitas Kristen Duta Wacana. Skilled in Web Applications for collecting data, data reporting and complex SQL knowledge</p>
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
 				    <div class="col-lg-9">
 					    <section class="resume-section experience-section mb-5">
-						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Pengalaman Kerja</h2>
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
 							    <div class="resume-timeline position-relative">
 
@@ -75,7 +75,7 @@
 					    	    		    <div class="resume-position-time">November 2021 - Present</div>
 					    	    	    </div><!--//resume-timeline-item-header-->
 					    	    	    <div class="resume-timeline-item-desc">
-					    	    		    <p>Memimpin team development untuk produk FarmXtension. Manage dan melakukan koordinasi antar divisi web, backend, dan mobile untuk maintenance dan pengembangan produk.</p>
+					    	    		    <p>Leading a development team for FarmXtension product. Manage and coordinate the team across web, backend, and mobile squad for maintenance and product development</p>
 					    	    	    </div><!--//resume-timeline-item-desc-->
 					    	        </article><!--//resume-timeline-item-->
 
@@ -88,7 +88,7 @@
 						    			    <div class="resume-position-time">November 2018 - Present</div>
 						    		    </div><!--//resume-timeline-item-header-->
 						    		    <div class="resume-timeline-item-desc">
-						    			    <p>Memimpin team web development di Koltiva untuk semua project yang berjalan. Meningkatkan web aplikasi yang berjalan agar sesuai dengan standard ISO 27001 dan juga bertanggung jawab dalam segala pengembangan fitur baru dan implementasinya kan ke dalam sistem</p>
+						    			    <p>Lead the web development team in Koltiva for all the running projects. Develop the web application so it meet the standard for ISO 27001 and responsible for adding new feature dan new implementation flow for the web application</p>
 						    			    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 						    			    <ul class="list-inline">
 						    				    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">AWS S3</span></li>
@@ -105,10 +105,10 @@
 										        <h3 class="resume-position-title font-weight-bold mb-1">Web Developer & System Analyst</h3>
 										        <div class="resume-company-name ms-auto">PT Koltiva</div>
 										    </div><!--//row-->
-										    <div class="resume-position-time">Maret 2016 - Oktober 2018</div>
+										    <div class="resume-position-time">March 2016 - October 2018</div>
 									    </div><!--//resume-timeline-item-header-->
 									    <div class="resume-timeline-item-desc">
-										    <p>Membangun web aplikasi commodity based trace (coklat, kelapa sawit, dll). Aplikasi ini menampilkan data-data petani, data hasil survey, data training petani dan juga memetakan lokasi kebun masing - masing petani didalam peta. Aplikasi juga bisa menampilkan laporan data dalam bentuk report excel ataupun data visualisasi dalam bentuk dashboard dan chart</p>
+										    <p>Build web application for tracing commodity (chocolate, palmoil, etc). This application will display farmers data, survey data, farmer training data, and also mapped the geolocation for the farmer's farm in the maps. This application also show the report in the dashboard data visualization, chart and excel file format</p>
 										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 										    <ul class="list-inline">
 											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PHP CodeIgniter</span></li>
@@ -125,10 +125,10 @@
 							    		        <h3 class="resume-position-title font-weight-bold mb-1">Web Developer & System Analyst</h3>
 							    		        <div class="resume-company-name ms-auto">CV Reliance</div>
 							    		    </div><!--//row-->
-							    		    <div class="resume-position-time">September 2014 - Februari 2016</div>
+							    		    <div class="resume-position-time">September 2014 - February 2016</div>
 							    	    </div><!--//resume-timeline-item-header-->
 							    	    <div class="resume-timeline-item-desc">
-							    		    <p>Membangun sistem web aplikasi Point of Sales untuk beberapa toko di Yogyakarta, termasuk toko bangungan, restoran, dan percetakan. Sistem aplikasi merupakan sistem online yg terhubung antar beberapa cabang. Mempunyai fitur member/pelanggan, multi role user account, stock inventory, data penjualan, data piutang/utang, laporan penjualan dalam excel dan Dashboard</p>
+							    		    <p>Build Point of sales web application for couple of store in Yogyakarta such as Tools and construction appliances store, Restaurant, and Digital Printing Store. The application is an offline / LAN connected application that can sync the data report through online sync reporting. Some of feature from the application is member/customer feature, multi role user account, stock inventory, sales data and report, sales credit data, and a comprehensive sales dan customer report for the store owner.</p>
 							    		    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 							    		    <ul class="list-inline">
 							    			    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PHP</span></li>
@@ -144,17 +144,16 @@
 							    	    <div class="resume-timeline-item-header mb-2">
 							    		    <div class="d-flex flex-column flex-md-row">
 							    		        <h3 class="resume-position-title font-weight-bold mb-1">Owner</h3>
-							    		        <div class="resume-company-name ms-auto">Toko Bahan Kue dan Plastik</div>
+							    		        <div class="resume-company-name ms-auto">Cake ingredients and plastic shop</div>
 							    		    </div><!--//row-->
-							    		    <div class="resume-position-time">September 2014 - Januari 2015</div>
+							    		    <div class="resume-position-time">September 2014 - January 2015</div>
 							    	    </div><!--//resume-timeline-item-header-->
 							    	    <div class="resume-timeline-item-desc">
-							    		    <p>Membuka Toko Bahan Kue dan Plastik Megasari di Yogyakarta. Job Deskripsi sebagai berikut</p>
+							    		    <p>Open Cake ingredients and plastic shop in Yogyakarta. Job Description as follow</p>
 						    		        <ul class="list">
 							    			    <li class="list-item">Manage Stock</li>
-							    			    <li class="list-item">Melakukan Order Barang</li>
-							    			    <li class="list-item">Melakukan Penjualan</li>
-							    			    <li class="list-item">Control Pemasukan dan Pengeluaran Toko</li>
+							    			    <li class="list-item">Sales</li>
+							    			    <li class="list-item">Managing the finance cashflow of the store</li>
 							    		    </ul>
 							    	    </div><!--//resume-timeline-item-desc-->
 							        </article><!--//resume-timeline-item-->
@@ -165,10 +164,10 @@
 						        		        <h3 class="resume-position-title font-weight-bold mb-1">College Academic System Web Developer</h3>
 						        		        <div class="resume-company-name ms-auto">PT Gamatechno</div>
 						        		    </div><!--//row-->
-						        		    <div class="resume-position-time">September 2014 - Februari 2016</div>
+						        		    <div class="resume-position-time">September 2014 - February 2016</div>
 						        	    </div><!--//resume-timeline-item-header-->
 						        	    <div class="resume-timeline-item-desc">
-						        		    <p>Kembali bekerja di PT Gamatechno secara full time sampai September 2014 dan sebagai outsource dari September 2014 - February 2016</p>
+						        		    <p>Back working in PT Gamatechno on fulltime basic until September 2014 and continue as outsource employee from September 2014 - February 2016</p>
 						        		    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 						        		    <ul class="list-inline">
 						        			    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PHP</span></li>
@@ -187,18 +186,16 @@
 							    		        <h3 class="resume-position-title font-weight-bold mb-1">Store Manager</h3>
 							    		        <div class="resume-company-name ms-auto">Hawaii Sports - Sports Apparel Shop</div>
 							    		    </div><!--//row-->
-							    		    <div class="resume-position-time">Juli 2012 - Oktober 2013</div>
+							    		    <div class="resume-position-time">July 2012 - October 2013</div>
 							    	    </div><!--//resume-timeline-item-header-->
 							    	    <div class="resume-timeline-item-desc">
-							    		    <p>Bekerja sebagai manager toko baju olahraga "Hawaii Sport" di Denpasar, Bali. Deskripsi pekerjaannya</p>
+							    		    <p>Work as a manager for the sports apparel shop in Denpasar, Bali.</p>
 						    		        <ul class="list">
-							    			    <li class="list-item">Membangun web shopping online untuk toko</li>
-							    			    <li class="list-item">Membangun sistem POS untuk toko</li>
+							    			    <li class="list-item">Build an online shopping website for the store</li>
+							    			    <li class="list-item">Build a simple Point of Sales web application for the store</li>
 							    			    <li class="list-item">Manage Stock</li>
-							    			    <li class="list-item">Melakukan Order Barang</li>
-							    			    <li class="list-item">Melakukan Penjualan</li>
-							    			    <li class="list-item">Order Baju Custom</li>
-							    			    <li class="list-item">Control Pemasukan dan Pengeluaran Toko</li>
+							    			    <li class="list-item">Sales</li>
+							    			    <li class="list-item">Managing the finance cashflow of the store</li>
 							    		    </ul>
 							    	    </div><!--//resume-timeline-item-desc-->
 							        </article><!--//resume-timeline-item-->
@@ -209,10 +206,10 @@
 							    		        <h3 class="resume-position-title font-weight-bold mb-1">College Academic System Web Developer</h3>
 							    		       	<div class="resume-company-name ms-auto">PT Gamatechno</div>
 							    		    </div><!--//row-->
-							    		    <div class="resume-position-time">November 2009 - Juli 2012</div>
+							    		    <div class="resume-position-time">November 2009 - July 2012</div>
 							    	    </div><!--//resume-timeline-item-header-->
 							    	    <div class="resume-timeline-item-desc">
-							    		    <p>Bekerja sebagai Developer aplikasi akademis yang berhubungan dari Penerimaan Mahasiswa Baru, Proses Registrasi, Manajemen Mahasiswa, sampai dengan pengolahan Data Alumni.</p>
+							    		    <p>Build a complete web application system for the college academic system including New Student Registration, Student Management, Class Scheduling, Student Report for each semester, Graduation Process and Alumni application</p>
 						        		    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 						        		    <ul class="list-inline">
 						        			    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PHP</span></li>
@@ -233,7 +230,7 @@
 							    		    <div class="resume-position-time">November 2008 - November 2009</div>
 							    	    </div><!--//resume-timeline-item-header-->
 							    	    <div class="resume-timeline-item-desc">
-							    		    <p>Bekerja sebagai Web Programmer di CV Jogjashop yang kebanyakan menerima klien pembuatan website profile, toko online, dan website MLM.</p>
+							    		    <p>Build company profile website, online shopping website and MLM member system website</p>
 						        		    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technology Stack</h4>
 						        		    <ul class="list-inline">
 						        			    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">PHP</span></li>
@@ -257,11 +254,11 @@
 				    <div class="col-lg-3">
 
 			    	    <section class="resume-section education-section mb-5">
-			    		    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Pendidikan</h2>
+			    		    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
 			    		    <div class="resume-section-content">
 			    			    <ul class="list-unstyled">
 			    				    <li class="mb-2">
-			    				        <div class="resume-degree font-weight-bold">S1 - Sarjana Teknik Informatika (Fak. Teknik)</div>
+			    				        <div class="resume-degree font-weight-bold">Bachelor's Degree - Informatics Engineering</div>
 			    				        <div class="resume-degree-org">UNIVERSITAS KRISTEN DUTA WACANA</div>
 			    				        <div class="resume-degree-time">2002 - 2008</div>
 			    				    </li>
@@ -361,6 +358,7 @@
         <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
     </footer>
 
+    
 <script type="text/javascript">
 setTimeout(() => {
 	const Toast = Swal.mixin({
@@ -373,12 +371,12 @@ setTimeout(() => {
 	})
 
 	Toast.fire({
-		iconHtml: '<img src="{{url('/')}}/assets/img/us.jpg">',
+		iconHtml: '<img src="{{url('/')}}/assets/img/id.png">',
 		customClass: {
 			icon: 'no-border'
 		},
 	  	html:
-	      'Switch to english CV <a href="{{ route('cv_eng') }}">here</a>'
+	      'Switch to bahasa CV <a href="{{ route('cv') }}">here</a>'
 	})
 }, 1000);
 </script>

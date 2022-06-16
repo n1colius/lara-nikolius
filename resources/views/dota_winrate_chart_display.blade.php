@@ -161,7 +161,7 @@
                 },
                 title: {
                     display: true,
-                    text: '{{$HeroName}} Best Pair With - Top 10'
+                    text: '{{$HeroName}} Best Pair With - Top 15'
                 }
             },
             scales: {

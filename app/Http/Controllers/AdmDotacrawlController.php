@@ -26,7 +26,7 @@ class AdmDotacrawlController extends Controller
 		//dd($contents_json);
 
 		//Parameter
-		$leagueid = 13754;
+		$leagueid = 14173;
 		$patchid = 3;
 		$total = 0;
 

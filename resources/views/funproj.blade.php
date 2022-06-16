@@ -31,7 +31,7 @@
                         </div>
                     </div>
 
-                    <div class="col" style="display:none;"> <!-- hide dulu -->
+                    <div class="col">
                         <div class="card" style="border:none;">
                             <img src="{{url('/')}}/assets/img/dota3.png" class="card-img-top" style="width:150px;">
                             <div class="card-body">
